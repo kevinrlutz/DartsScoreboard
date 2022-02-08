@@ -66,7 +66,7 @@ export default function App() {
       <Image source={require('./assets/dartboard.jpg')} style={styles.dartboard} />
       <View style={styles.scoreboard}>
         <View style={styles.scoreBoardColumn}>
-          <TextInput style={styles.playerName} onChangeText={setPlayerOne}>{playerOne}</TextInput>
+          <TextInput style={styles.playerName} onChangeText={setPlayerOne} value={playerOne} />
           <View style={styles.scoreLine}>
             <Text style={styles.score}>15: {oneScore[0]}</Text>
             <TouchableHighlight onPress={() => handleIncrease(1, 0)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
@@ -104,7 +104,7 @@ export default function App() {
           </View>
         </View>
         <View style={styles.scoreBoardColumn}>
-          <TextInput style={styles.playerName} onChangeText={setPlayerTwo}>{playerTwo}</TextInput>
+          <TextInput style={styles.playerName} onChangeText={setPlayerTwo} value={playerTwo} />
           <View style={styles.scoreLine}>
             <Text style={styles.score}>15: {twoScore[0]}</Text>
             <TouchableHighlight onPress={() => handleIncrease(2, 0)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
@@ -146,7 +146,6 @@ export default function App() {
         <Text style={styles.resetButton}>Reset</Text>
       </TouchableHighlight>
       <Text>Built by Kevin Lutz</Text>
-      <StatusBar style="auto" />
     </View>
   );
 }
@@ -177,6 +176,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: 'black',
     width: '90%',
+    maxWidth: 400,
   },
 
   score: {
