@@ -69,83 +69,83 @@ export default function App() {
           <TextInput style={styles.playerName} onChangeText={setPlayerOne} value={playerOne} />
           <View style={styles.scoreLine}>
             <Text style={styles.score}>15: {oneScore[0]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(1, 0)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(1, 0)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(1, 0)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>16: {oneScore[1]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(1, 1)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(1, 1)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(1, 1)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>17: {oneScore[2]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(1, 2)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(1, 2)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(1, 2)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>18: {oneScore[3]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(1, 3)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(1, 3)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(1, 3)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>19: {oneScore[4]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(1, 4)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(1, 4)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(1, 4)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>20: {oneScore[5]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(1, 5)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(1, 5)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(1, 5)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>BE: {oneScore[6]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(1, 6)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(1, 6)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(1, 6)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
         </View>
         <View style={styles.scoreBoardColumn}>
           <TextInput style={styles.playerName} onChangeText={setPlayerTwo} value={playerTwo} />
           <View style={styles.scoreLine}>
             <Text style={styles.score}>15: {twoScore[0]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(2, 0)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(2, 0)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(2, 0)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>16: {twoScore[1]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(2, 1)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(2, 1)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(2, 1)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>17: {twoScore[2]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(2, 2)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(2, 2)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(2, 2)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>18: {twoScore[3]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(2, 3)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(2, 3)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(2, 3)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>19: {twoScore[4]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(2, 4)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(2, 4)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(2, 4)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>20: {twoScore[5]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(2, 5)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(2, 5)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(2, 5)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
           <View style={styles.scoreLine}>
             <Text style={styles.score}>BE: {twoScore[6]}</Text>
-            <TouchableHighlight onPress={() => handleDecrease(2, 6)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
             <TouchableHighlight onPress={() => handleIncrease(2, 6)}><Text style={styles.scoreButton}>+</Text></TouchableHighlight>
+            <TouchableHighlight onPress={() => handleDecrease(2, 6)}><Text style={styles.scoreButton}>-</Text></TouchableHighlight>
           </View>
         </View>
       </View>
       <TouchableHighlight onPress={reset}>
         <Text style={styles.resetButton}>Reset</Text>
       </TouchableHighlight>
-      <Text>Built by <a href='https://kevinlutz.me/'>Kevin Lutz</a></Text>
+      <Text>Built by Kevin Lutz</Text>
     </View>
   );
 }
@@ -177,12 +177,10 @@ const styles = StyleSheet.create({
     borderColor: 'black',
     width: '90%',
     maxWidth: 400,
-    backgroundColor: "#4EA538",
   },
 
   score: {
     fontSize: 22,
-    color: 'white',
   },
 
   scoreLine: {
@@ -194,8 +192,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
     marginRight: 20,
     marginLeft: 20,
-    color: 'white',
-    fontWeight: 'bold',
   },
 
   playerName: {
@@ -204,8 +200,6 @@ const styles = StyleSheet.create({
     padding: 10,
     textAlign: 'center',
     fontSize: 18,
-    color: 'white',
-    fontWeight: 'bold',
   },
 
   scoreBoardColumn: {
